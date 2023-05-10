@@ -34,15 +34,13 @@ public class SecondActivity extends AppCompatActivity {
     // метод setInitialData() устанавливает начальный набор данных (а именно изображения из папки res/drawables)
     private void setInitialData() {
         // добавление в контейнер animals объектов сущности Animal
-        animals.add( new Animal("Рысь", "Род хищных млекопитающих семейства кошачьих, наиболее близкий к роду кошек",
-                R.drawable.lynx, "Численность средняя"));
-        animals.add( new Animal("Бобр", "Полуводное млекопитающее отряда грызунов",
-                R.drawable.beaver, "Численность большая"));
-        animals.add( new Animal("Медведь", "Семейство млекопитающих отряда хищных. Отличаются от других представителей псообразных более коренастым телосложениемв",
-                R.drawable.bear, "Численность большая"));
-        animals.add( new Animal("Волк", "Вид хищных млекопитающих из семейства псовых",
-                R.drawable.wolf, "Численность большая"));
-        animals.add( new Animal("Сова", "Хищная птица семейства совиных с мягким рыхлым оперением, обеспечивающим бесшумность полёта, с продолговатым крючковатым клювом и круглой головой, на которой оперение вокруг больших глаз образует так называемый «лицевой» диск, ведущая сумеречный образ жизни",
-                R.drawable.owl, "Численность большая"));
+        animals.add( new Animal("Ken Carson", "Американский рэпер, певец, автор песен и продюсер. Первую большую популярность получил после выпуска студийного альбома X, который достиг 115 строчки в Billboard 200, и подписанием контракта с Opium, лейблом звукозаписи, принадлежащим Playboi Carti.",
+                R.drawable.ken, "Настоящее имя: Kenyatta Lee Frazier Jr."));
+        animals.add( new Animal("Playboi Carti", "Американский рэпер. Изначально Картер был подписан на местный андеграундный лейбл Awful Records, а затем на AWGE, принадлежащий ASAP Mob.",
+                R.drawable.carti, "Настоящее имя: Jordan Terrell Carter."));
+        animals.add( new Animal("Destroy Lonely", "Американский рэпер. Он наиболее известен своим микстейпом No Stylist, который достиг 91 строчки в Billboard 200. В начале 2021 года Destroy Lonely подписал контракт с лейблом Playboi Carti Opium.",
+                R.drawable.lone, "Настоящее имя: Бо́бби Уо́рдел Сандима́ни III."));
+        animals.add( new Animal("Homixide Gang", "Рэп дуэт из Атланты. Подписаны на лейбл Playboi Carti Opium.",
+                R.drawable.homixide, "Настоящее имя: Beno & Meechie."));
     }
 }
